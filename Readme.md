@@ -24,10 +24,10 @@ You create the Lambda Function which hosts the business logic code and HTML user
 In this step, you configure REST API in API Gateway which calls Lambda function as the backend. The URL of the API becomes the URL of the web application.
 
 1. In the API Gateway Console, click on the Build button for the REST API.
-2. On the next screen, select REST for the protocol and select New API option. Type in dojowebapi for the API Name and select Regional for the endpoint type. Finally, click on the Create API button.
+2. On the next screen, select REST for the protocol and select New API option. Type in squarewebapi for the API Name and select Regional for the endpoint type. Finally, click on the Create API button.
 3. The API is created in no time. On the next screen, click on the Create Method option under the Action menu.
 4. On the next screen, select GET as the method and click on the confirmation icon.
-5. The method is created in no time. On the next screen, select Lambda Function option for the integration type. Select Use Lambda Proxy integration option. Select dojowebfunction for the Lambda Function. Keep rest of the configuration to the default and click on the Save button.
+5. The method is created in no time. On the next screen, select Lambda Function option for the integration type. Select Use Lambda Proxy integration option. Select squarewebapp for the Lambda Function. Keep rest of the configuration to the default and click on the Save button.
 6. It will throw a popup asking API Gateway permission to call the Lambda function. Click on the OK button.
 7. The GET method is updated. You repeat the same steps to create a POST method as well. Click on the Create Method option under the Action menu.
 8. The POST method is updated. Go back to the API details and click on the Deploy API option under the Action menu.
