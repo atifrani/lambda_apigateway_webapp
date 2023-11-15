@@ -1,4 +1,4 @@
-# Webapp5:
+# AWS lambda with apigateway webapp:
 deploy web application with aws lambda
 
 ## Create IAM Role
